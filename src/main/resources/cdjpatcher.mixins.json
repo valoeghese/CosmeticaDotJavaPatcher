@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "nz.valoeghese.cdjpatcher.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CDJSkipGetAPIMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

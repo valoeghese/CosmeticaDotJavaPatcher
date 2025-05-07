@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "cdjpatcher",
+	"version": "${version}",
+	"name": "CosmeticaDotJava Patcher",
+	"description": "Patches Cosmetica to skip /getapi and go directly to the api",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/cdjpatcher/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nz.valoeghese.cdjpatcher.CosmeticadotjavaPatcher"
+		]
+	},
+	"mixins": [
+		"cdjpatcher.mixins.json"
+	],
+	"depends": {
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
