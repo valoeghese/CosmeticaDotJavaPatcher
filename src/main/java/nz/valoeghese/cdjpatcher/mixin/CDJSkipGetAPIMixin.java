@@ -24,7 +24,6 @@ public class CDJSkipGetAPIMixin {
 	@Shadow private static String websiteHost;
 	@Shadow private static String authServerHost;
 	@Shadow private static String message;
-	@Shadow private static File apiCache;
 
 	/**
 	 * @author Valoeghese
