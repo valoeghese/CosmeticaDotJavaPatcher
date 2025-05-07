@@ -5,7 +5,7 @@
 	"name": "CosmeticaDotJava Patcher",
 	"description": "Patches Cosmetica to skip /getapi and go directly to the api",
 	"authors": [
-		"Me!"
+		"Valoeghese"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -13,9 +13,9 @@
 	},
 	"license": "MIT",
 	"icon": "assets/cdjpatcher/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
+		"client": [
 			"nz.valoeghese.cdjpatcher.CosmeticadotjavaPatcher"
 		]
 	},
